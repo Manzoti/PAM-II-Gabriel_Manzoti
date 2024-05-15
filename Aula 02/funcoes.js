@@ -41,3 +41,4 @@ const Teste = (n) => {
 console.log (Teste(2))
 console.log (Teste(7))
 Teste (5) // essa linha não vai executar porque não tem console 
+//
