@@ -9,3 +9,4 @@ console.log(typeof msg)
 
 // para dar o espaço entre a escrita e o número dois tem 2 jeitos 
 //só dar o espaço ou no console contatenar com ,
+//
