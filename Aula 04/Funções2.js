@@ -1,4 +1,3 @@
-//save 1
 /*const TesteImparPar = (n) => {
     let calculoTeste = n % 2
 
