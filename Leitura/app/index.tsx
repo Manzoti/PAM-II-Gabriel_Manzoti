@@ -36,18 +36,20 @@ export default function App() {
     fetchData();
   }, []);
 
+  
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
       <Text>Lista de Nomes:</Text>
-      <FlatList
+        <FlatList
         data={nomes}
         keyExtractor={(item) => item.id}
         renderItem={({ item }) => (
           <View>
             <Text>{item.Nome} {item.Sobrenome}</Text>
           </View>
-        )}
+          )}
       />
     </View>
-  );
+      );
+  
 }
